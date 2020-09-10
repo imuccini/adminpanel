@@ -1,3 +1,32 @@
+/*sidebar*/
+
 ul#mainsidebar {
     background: #171B2A!important;
     }
+.menu_title {
+    display:none;
+}
+
+.sidebar-close-button.open-panel {
+     display:none;   
+}
+
+.second-level-container .second-level-content.open-panel {
+    left: 20px;
+}
+
+
+}
+.second-level-container.open-panel {
+    border-right: none;
+}
+
+
+}
+.second-level-container .second-level-content ul li a {
+    color: #171B2A!important;
+}
+
+.second-level-container .second-level-content ul li.active a {
+    color: #171B2A!important;
+}
