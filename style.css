@@ -22,11 +22,19 @@ td a {
 
 /*sidebar*/
 
+ul#mainsidebar li.active {
+        fill: #171B2A;
+}
+
 ul#mainsidebar {
     background: #171B2A!important;
     }
 .menu_title {
     display:none;
+}
+
+ul#mainsidebar li[data-uri='settings'] {
+    position: relative;
 }
 
 .sidebar-close-button.open-panel {
@@ -68,7 +76,7 @@ ul#mainsidebar {
 
 
 .second-level-container .second-level-content ul {
-    margin-top: 14px;
+    margin-top: 24px;
 }
 
 
@@ -109,9 +117,16 @@ html body #maincontainer .btn.btn-success {
     font-size: 28px!important;
 }
 
+
+/*breadcrumbs*/
+
 nav.breadcrumbs {
     position: absolute;
     top: 64px;
+}
+
+nav.breadcrumbs ul:first-child {
+    display: none;
 }
 
 nav.breadcrumbs ul li a, nav.breadcrumbs ul li span {
