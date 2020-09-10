@@ -21,6 +21,9 @@ ul#mainsidebar {
     border-right: none!important;
 }
 
+.second-level-container {
+    background-color: transparent;
+}
 
 }
 .second-level-container .second-level-content ul li a {
@@ -29,4 +32,35 @@ ul#mainsidebar {
 
 .second-level-container .second-level-content ul li.active a {
     color: #171B2A!important;
+}
+
+
+/*main*/
+.openpanel .action_bar, .openpanel .main_content {
+    margin-left: 263px;
+    width: calc(100% - 280px);
+}
+
+
+.panel_inner h3 {
+    color: #171B2A!important;
+}
+
+
+
+
+/*buttons */
+html body #maincontainer .btn{
+        box-shadow: none;
+    background-color: #171B2A!important;
+}
+
+
+/*panel*/
+.panel_inner {
+    border-bottom: none;
+}
+
+.panel_inner .pull-right {
+    padding-top: 0px!important;
 }
