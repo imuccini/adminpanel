@@ -94,6 +94,23 @@ html body #maincontainer .btn{
     background-color: #171B2A;
 }
 
+html body #maincontainer .btn.btn-primary {
+        box-shadow: none;
+    background-color: #171B2A;
+}
+html body #maincontainer .btn.btn-primary:hover {
+        opacity:0.8    
+}
+
+html body #maincontainer .btn.btn-nav{
+        box-shadow: none;
+    background-color: #171B2A;
+}
+
+html body #maincontainer .btn.btn-nav:hover {
+          opacity:0.8    
+}  
+
 html body #maincontainer .btn.btn-success {
     box-shadow: none;
     background-color: #171B2A;
