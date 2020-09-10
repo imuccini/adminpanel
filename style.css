@@ -88,6 +88,7 @@ html body #maincontainer .btn{
 
 .panel_inner h3 {
     color: #171B2A!important;
+        font-weight: 600;
 }
 
 nav.breadcrumbs {
