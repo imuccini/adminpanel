@@ -1,3 +1,18 @@
+/*body */
+
+body {
+    color: #171B2A;  
+}
+
+a {
+    color: #171B2A;
+}
+
+td a {
+    color: #171B2A;
+    text-decoration: underline;
+}
+    
 /*sidebar*/
 
 ul#mainsidebar {
@@ -16,7 +31,6 @@ ul#mainsidebar {
 }
 
 
-}
 .second-level-container.open-panel {
     border-right: none!important;
 }
@@ -26,6 +40,10 @@ ul#mainsidebar {
 }
 
 }
+.second-level-container .second-level-content ul li a {
+    color: #171B2A!important;
+}
+
 .second-level-container .second-level-content ul li a {
     color: #171B2A!important;
 }
@@ -42,17 +60,16 @@ ul#mainsidebar {
 }
 
 
-.panel_inner h3 {
-    color: #171B2A!important;
+.second-level-container .second-level-content ul {
+    margin-top: 50px;
 }
-
 
 
 
 /*buttons */
 html body #maincontainer .btn{
         box-shadow: none;
-    background-color: #171B2A!important;
+    background-color: #171B2A;
 }
 
 
@@ -63,4 +80,16 @@ html body #maincontainer .btn{
 
 .panel_inner .pull-right {
     padding-top: 0px!important;
+}
+
+.panel_inner {
+    padding-top: 45px;
+}
+
+.panel_inner h3 {
+    color: #171B2A!important;
+}
+
+nav.breadcrumbs {
+    display: none;
 }
