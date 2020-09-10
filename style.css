@@ -14,6 +14,12 @@ td a {
     text-decoration: underline;
 }
     
+/*nav*/
+.m-inner .nav>li>a {
+    color: #171B2A;
+}
+
+
 /*sidebar*/
 
 ul#mainsidebar {
@@ -62,7 +68,7 @@ ul#mainsidebar {
 
 
 .second-level-container .second-level-content ul {
-    margin-top: 45px;
+    margin-top: 14px;
 }
 
 
@@ -104,5 +110,20 @@ html body #maincontainer .btn.btn-success {
 }
 
 nav.breadcrumbs {
-    display: none;
+    position: absolute;
+    top: 64px;
+}
+
+nav.breadcrumbs ul li a, nav.breadcrumbs ul li span {
+    color: #000;
+    font-size: 11px;
+    opacity: .25;
+}
+
+
+/*dashboard*/
+
+section.grid .widget h4 .metric {
+    color: #171B2A;
+    font-weight: 600;
 }
