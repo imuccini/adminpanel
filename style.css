@@ -99,7 +99,21 @@ html body #maincontainer .btn.btn-success {
     background-color: #171B2A;
 }
 
+html body #maincontainer .btn.btn-success:hover {
+    opacity:0.8    
+}
 
+html body #maincontainer .btn.btn-success:hover {
+    opacity:0.8
+}
+
+html body #maincontainer .btn {
+      box-shadow: none;
+    background-color: #171B2A;
+}
+html body #maincontainer .btn:hover {
+    opacity:0.8
+}
 
 /*panel*/
 .panel_inner {
