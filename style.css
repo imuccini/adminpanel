@@ -83,6 +83,9 @@ ul#mainsidebar li[data-uri='settings'] {
 .section_title {
     color: #0000007d;
 }
+ul > .section_title:first-child {
+    display: none;
+}
 
 
 /*buttons */
