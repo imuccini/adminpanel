@@ -2,6 +2,7 @@
 
 body {
     color: #171B2A;  
+    font-size: 14px;
 }
 
 a {
@@ -27,7 +28,7 @@ ul#mainsidebar {
 }
 
 .second-level-container .second-level-content.open-panel {
-    left: 20px;
+    left: 20px!important;
 }
 
 
@@ -61,9 +62,13 @@ ul#mainsidebar {
 
 
 .second-level-container .second-level-content ul {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
+
+.section_title {
+    color: #0000007d;
+}
 
 
 /*buttons */
@@ -71,6 +76,12 @@ html body #maincontainer .btn{
         box-shadow: none;
     background-color: #171B2A;
 }
+
+html body #maincontainer .btn.btn-success {
+    box-shadow: none;
+    background-color: #171B2A;
+}
+
 
 
 /*panel*/
@@ -88,7 +99,8 @@ html body #maincontainer .btn{
 
 .panel_inner h3 {
     color: #171B2A!important;
-        font-weight: 600;
+    font-weight: 600;
+    font-size: 28px!important;
 }
 
 nav.breadcrumbs {
