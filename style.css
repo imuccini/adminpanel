@@ -174,7 +174,7 @@ nav.breadcrumbs {
     top: 64px;
 }
 
-nav.breadcrumbs ul:first-child {
+nav.breadcrumbs ul > li:first-child {
     display: none;
 }
 
@@ -210,7 +210,7 @@ body, body #contentwrapper, body .main_content, body .panel {
 /*analytics filters*/
 
 header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dashboard_period div.selected p {
-    padding-left: 0px!important;
+    padding-left: 0px !important;
 }
 
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
