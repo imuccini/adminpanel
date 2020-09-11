@@ -56,7 +56,7 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 .second-level-container {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 }
@@ -81,7 +81,7 @@ ul#mainsidebar li[data-uri='settings'] {
 
 
 .second-level-container .second-level-content ul {
-    margin-top: 50px;
+    margin-top: 50px!important;
 }
 
 
@@ -157,7 +157,7 @@ html body #maincontainer .btn:hover {
 }
 
 .panel_inner {
-    padding-top: 45px;
+    padding-top: 45px!important;
 }
 
 .panel_inner h3 {
@@ -211,7 +211,7 @@ body, body #contentwrapper, body .main_content, body .panel {
 
 }
 header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dashboard_period div.selected p {
-    padding: 0 0 0 0px !important;;
+    padding: 0 0 0 0px !important;
 }
 
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
