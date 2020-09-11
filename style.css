@@ -207,3 +207,12 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
     fill: #171B2A!important;
 }
+
+/*table */
+.datatableFirstList a {
+    color: #3758ff;
+}
+
+.dtList th {
+        color: #171B2A;
+}
