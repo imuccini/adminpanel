@@ -182,14 +182,28 @@ section.grid .widget h4 .metric {
     font-weight: 600!important;
 }
 
+section.grid .widget h4 {
+    color: #171B2A!important;
+    font-weight: 600!important;
+}
+
+section.grid .widget {
+    border-radius: 4px!important;;
+    border: 1px solid #eeeeee!important;;
+}
+
+body, body #contentwrapper, body .main_content, body .panel {
+    background: #ffffff!important;;
+}
+
 
 /*analytics filters*/
 
 }
 header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dashboard_period div.selected p {
-    padding: 0 0 0 0px;
+    padding: 0 0 0 0px !important;;
 }
 
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
-    fill: #171B2A;
+    fill: #171B2A!important;
 }
