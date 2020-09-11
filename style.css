@@ -20,9 +20,8 @@ td a {
 }
 
 td a:hover {
-    color: #171B2A;
+    color: #171B2A!important;
     text-decoration: underline;
-    font-weight:600;
 }
     
 /*nav*/
