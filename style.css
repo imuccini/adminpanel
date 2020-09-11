@@ -107,6 +107,16 @@ html body #maincontainer .btn.btn-primary:hover {
         opacity:0.8    
 }
 
+html body #maincontainer .btn.btn-gebo {
+        box-shadow: none;
+    background-color: #171B2A;
+}
+html body #maincontainer .btn.btn-gebo:hover {
+        opacity:0.8    
+}
+
+
+
 html body #maincontainer .btn.btn-nav{
         box-shadow: none;
     background-color: #171B2A;
@@ -210,9 +220,14 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 
 /*table */
 .datatableFirstList a {
-    color: #3758ff;
+    color: #171B2A;
 }
 
 .dtList th {
         color: #171B2A;
 }
+
+/*other*/
+.vcard .item-key {
+     color: #171B2A;
+}   
