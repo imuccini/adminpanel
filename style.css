@@ -9,6 +9,11 @@ a {
     color: #171B2A;
 }
 
+tbody a:hover {
+    color: #3758ff;
+    text-decoration: none;
+}
+
 td a {
     color: #171B2A;
     text-decoration: underline;
@@ -23,7 +28,7 @@ td a {
 /*sidebar*/
 
 ul#mainsidebar li.active {
-        fill: #171B2A;
+        fill: #171B2A!important;
 }
 
 ul#mainsidebar {
@@ -113,7 +118,7 @@ html body #maincontainer .btn.btn-nav:hover {
 
 html body #maincontainer .btn.btn-success {
     box-shadow: none;
-    background-color: #171B2A;
+    background-color: #171B2A!important;
 }
 
 html body #maincontainer .btn.btn-success:hover {
@@ -173,6 +178,18 @@ nav.breadcrumbs ul li a, nav.breadcrumbs ul li span {
 /*dashboard*/
 
 section.grid .widget h4 .metric {
-    color: #171B2A;
-    font-weight: 600;
+    color: #171B2A!important;
+    font-weight: 600!important;
+}
+
+
+/*analytics filters*/
+
+}
+header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dashboard_period div.selected p {
+    padding: 0 0 0 0px;
+}
+
+.v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
+    fill: #171B2A;
 }
