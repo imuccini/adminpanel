@@ -18,6 +18,12 @@ td a {
     color: #171B2A;
     text-decoration: underline;
 }
+
+td a:hover {
+    color: #171B2A;
+    text-decoration: underline;
+    font-weight:600;
+}
     
 /*nav*/
 .m-inner .nav>li>a {
