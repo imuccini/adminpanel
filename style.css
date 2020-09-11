@@ -24,6 +24,15 @@ td a {
     color: #171B2A;
 }
 
+}
+.navbar-inner {
+    box-shadow: none !important;
+}
+
+
+.navbar .brand {
+    margin-left: 60px;
+}
 
 /*sidebar*/
 
@@ -92,6 +101,14 @@ ul > .section_title:first-child {
     display: none;
 }
 
+.sidebar-close-button.open-panel {
+    visibility: visible;
+    left: 80px;
+}
+
+.sidebar-close-button {
+    bottom: 15px;
+}
 
 /*buttons */
 html body #maincontainer .btn{
@@ -113,6 +130,10 @@ html body #maincontainer .btn.btn-gebo {
 }
 html body #maincontainer .btn.btn-gebo:hover {
         opacity:0.8    
+}
+
+.second-level-container .second-level-content ul li a:hover {
+ text-decoration: underline;   
 }
 
 
