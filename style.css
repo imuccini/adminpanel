@@ -9,18 +9,14 @@ a {
     color: #171B2A;
 }
 
-tbody a:hover {
-    color: #3758ff!important;
-    text-decoration: none!important;
-}
 
-td a {
+tbody a {
     color: #171B2A!important;
     text-decoration: underline!important;
 }
 
-td a:hover {
-    color: #171B2A!important;
+tbody a:hover {
+    color: #5672AD!important;
     text-decoration: underline!important;
 }
     
