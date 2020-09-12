@@ -316,3 +316,40 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
     padding-top: 30px;
     border: none !important;
 }
+
+/* TABS */
+html.v600 .tabbable .nav.nav-tabs li.active a, html .tabbable .nav.nav-tabs li.active a, html.v600 .tabbable-bordered .nav.nav-tabs li.active a, html .tabbable-bordered .nav.nav-tabs li.active a {
+    border-bottom: 4px solid #171B2A!important;
+        color: #171B2A!important;  
+}
+
+
+
+/*switch */
+
+.has-switch {
+    border-color: #eee!important;
+    text-shadow: none !important;
+}
+
+.has-switch label {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    color: #333333;
+    text-shadow: none;
+    background-image: none;
+}
+
+.has-switch span.switch-danger {
+    color: #444;
+    text-shadow: none !important;
+    background-color: #f7f7f7;
+    border: 1px solid #eee !important;
+}
+
+.has-switch span.switch-success {
+    color: #00B050;
+    background: no-repeat;
+    text-shadow: none !important;
+    
+}
