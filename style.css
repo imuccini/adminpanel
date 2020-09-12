@@ -1,12 +1,12 @@
 /*body */
 
 body {
-    color: #171B2A!important;  
+    color: #171B2A;  
     font-size: 14px!important;
 }
 
 a {
-    color: #171B2A!important;
+    color: #171B2A;
 }
 
 tbody a:hover {
@@ -166,7 +166,7 @@ html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
 
 html body #maincontainer .btn.btn-primary {
         box-shadow: none!important;
-    background-color: #171B2A!important;
+    background-color: #171B2A;
 }
 html body #maincontainer .btn.btn-primary:hover {
         opacity:0.8!important;    
@@ -174,7 +174,7 @@ html body #maincontainer .btn.btn-primary:hover {
 
 html body #maincontainer .btn.btn-gebo {
         box-shadow: none!important;
-    background-color: #171B2A!important;
+    background-color: #171B2A;
 }
 html body #maincontainer .btn.btn-gebo:hover {
         opacity:0.8!important;    
@@ -193,7 +193,7 @@ html body #maincontainer .btn.btn-nav:hover {
 
 html body #maincontainer .btn.btn-success {
     box-shadow: none!important;
-    background-color: #171B2A!important;
+    background-color: #171B2A;
 }
 
 html body #maincontainer .btn.btn-success:hover {
