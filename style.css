@@ -104,14 +104,14 @@ ul#mainsidebar li[data-uri='settings'] {
     border-radius: 4px;
 }
 
-.second-level-container .second-level-content ul li a:hover {
+.second-level-container .second-level-content ul li a:hover, .second-level-container .second-level-content ul li a:focus, .second-level-container .second-level-content ul li a:active {
     background:#F5F6F7!important;
     text-decoration: none!important;
 }
 
 .second-level-container .second-level-content ul li.active a {
     font-weight: 900;
-    color: #0076aa !important;
+    color: #5672AD !important;
 }
 
 
