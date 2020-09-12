@@ -158,6 +158,7 @@ ul > .section_title:first-child {
 html body #maincontainer .btn{
         box-shadow: none!important;
     background-color: #171B2A!important;
+    color: #ffffff!important;
 }
 
 html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
@@ -167,6 +168,7 @@ html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
 html body #maincontainer .btn.btn-primary {
         box-shadow: none!important;
     background-color: #171B2A;
+    color: #ffffff!important;
 }
 html body #maincontainer .btn.btn-primary:hover {
         opacity:0.8!important;    
@@ -175,6 +177,7 @@ html body #maincontainer .btn.btn-primary:hover {
 html body #maincontainer .btn.btn-gebo {
         box-shadow: none!important;
     background-color: #171B2A;
+    color: #ffffff!important;
 }
 html body #maincontainer .btn.btn-gebo:hover {
         opacity:0.8!important;    
@@ -185,6 +188,7 @@ html body #maincontainer .btn.btn-gebo:hover {
 html body #maincontainer .btn.btn-nav{
         box-shadow: none!important;
     background-color: #171B2A!important;
+    color: #ffffff!important;
 }
 
 html body #maincontainer .btn.btn-nav:hover {
@@ -194,19 +198,18 @@ html body #maincontainer .btn.btn-nav:hover {
 html body #maincontainer .btn.btn-success {
     box-shadow: none!important;
     background-color: #171B2A;
+    color: #ffffff!important;
 }
 
 html body #maincontainer .btn.btn-success:hover {
     opacity:0.8   !important; 
 }
 
-html body #maincontainer .btn.btn-success:hover {
-    opacity:0.8!important;
-}
 
 html body #maincontainer .btn {
       box-shadow: none!important;
     background-color: #171B2A!important;
+    color: #ffffff!important;
 }
 html body #maincontainer .btn:hover {
     opacity:0.8!important;
@@ -300,6 +303,10 @@ section.grid .gridster {
 
 .dtList th {
         color: #171B2A!important;
+}
+
+.datatableList {
+    opacity: 0.68;
 }
 
 /*other*/
