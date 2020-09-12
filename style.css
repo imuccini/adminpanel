@@ -87,12 +87,6 @@ ul#mainsidebar li[data-uri='settings'] {
     background-color: transparent !important;
 }
 
-}
-
-
-
-
-
 
 .second-level-container .second-level-content ul li {
     width:100%;
@@ -129,7 +123,7 @@ ul#mainsidebar li[data-uri='settings'] {
 
 
 .second-level-container .second-level-content ul {
-    margin-top: 50px!important;
+    margin-top: 30px!important;
 }
 
 
@@ -213,7 +207,7 @@ html body #maincontainer .btn:hover {
 }
 
 .panel_inner {
-    padding-top: 45px!important;
+    padding-top: 40px!important;
 }
 
 .panel_inner h3 {
