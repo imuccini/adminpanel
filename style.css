@@ -98,6 +98,7 @@ ul#mainsidebar li[data-uri='settings'] {
 
 .second-level-container .second-level-content ul li a:hover {
     background:#F5F6F7!important;
+    text-decoration: none!important;
 }
 
 .section_title {
