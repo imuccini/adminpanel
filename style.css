@@ -282,9 +282,6 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
     fill: #171B2A!important;
 }
 
-.PAgridstem > div.gridstem_widget:first-child, .PAgridstem > div.gridstem_widget:last-child {
-    padding-left: 0px !important;
-}
 
 
 
