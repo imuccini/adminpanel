@@ -5,6 +5,10 @@ body {
     font-size: 14px!important;
 }
 
+#contentwrapper {
+    padding-bottom: 40px;
+}
+
 a {
     color: #171B2A;
 }
@@ -331,10 +335,13 @@ section.grid .gridster {
 
 /* TABS */
 html.v600 .tabbable .nav.nav-tabs li.active a, html .tabbable .nav.nav-tabs li.active a, html.v600 .tabbable-bordered .nav.nav-tabs li.active a, html .tabbable-bordered .nav.nav-tabs li.active a {
-    border-bottom: 4px solid #171B2A!important;
+    border-bottom: 4px solid #5672AD!important;
         color: #171B2A!important;  
 }
 
+html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:hover, html.v600 .tabbable-bordered .nav.nav-tabs li a:hover, html .tabbable-bordered .nav.nav-tabs li a:hover {
+    border-bottom: 4px solid #171B2A!important;
+}
 
 
 /*switch */
