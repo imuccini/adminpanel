@@ -74,16 +74,29 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 }
-.second-level-container .second-level-content ul li a {
-    color: #171B2A!important;
-}
 
-.second-level-container .second-level-content ul li a {
-    color: #171B2A!important;
-}
 
 .second-level-container .second-level-content ul li.active a {
     color: #171B2A!important;
+}
+
+
+.second-level-container .second-level-content ul li {
+    width:100%;
+    margin:0px;
+}
+
+
+.second-level-container .second-level-content ul li a {
+    color: #171B2A !important;
+    padding: 5px;
+    width: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.second-level-container .second-level-content ul li a:hover {
+    background:#efefef!important;
 }
 
 
