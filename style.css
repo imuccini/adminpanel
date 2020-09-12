@@ -81,9 +81,10 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 
+
 .second-level-container .second-level-content ul li {
     width:100%;
-    margin:0px;
+    margin-bottom: 0px!important;
 }
 
 
@@ -96,7 +97,12 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 .second-level-container .second-level-content ul li a:hover {
-    background:#efefef!important;
+    background:#F5F6F7!important;
+}
+
+.section_title {
+    padding-left: 7px;
+    opacity: 0.5;
 }
 
 
