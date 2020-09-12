@@ -337,7 +337,8 @@ section.grid .gridster {
 .vcard > ul > li.v-heading {
     padding-bottom: 10px!important;
     padding-top: 30px!important;
-    border: none !important;
+    border-bottom: 1px solid #eeeeee;
+    line-height:40px;
 }
 
 /* TABS */
