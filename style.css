@@ -39,7 +39,8 @@ td a:hover {
 
 
 .navbar .brand {
-    margin-left: 60px;
+    margin-left: 68px;
+    
 }
 
 /*sidebar*/
@@ -50,7 +51,11 @@ ul#mainsidebar li.active {
 
 ul#mainsidebar {
     background: #171B2A!important;
+        top: 0px;
+        padding-top: 55px;
     }
+
+
 .menu_title {
     /*display:none;*/
 }
