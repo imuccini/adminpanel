@@ -29,8 +29,8 @@ td a:hover {
     color: #171B2A;
 }
 
-}
-.navbar-inner {
+
+.navbar .m-inner {
     box-shadow: none !important;
 }
 
@@ -155,10 +155,6 @@ html body #maincontainer .btn.btn-gebo {
 }
 html body #maincontainer .btn.btn-gebo:hover {
         opacity:0.8    
-}
-
-.second-level-container .second-level-content ul li a:hover {
- text-decoration: underline;   
 }
 
 
