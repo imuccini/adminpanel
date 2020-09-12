@@ -46,14 +46,14 @@ td a:hover {
 /*sidebar*/
 
 ul#mainsidebar li.active {
-        fill: #171B2A!important;
+    fill: #171B2A!important;
 }
 
 ul#mainsidebar {
     background: #171B2A!important;
-        top: 0px!important;
-        padding-top: 55px!important;
-    }
+    top: 0px!important;
+    padding-top: 55px!important;
+}
 
 
 .menu_title {
@@ -281,6 +281,12 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
     fill: #171B2A!important;
 }
+
+.PAgridstem > div.gridstem_widget:first-child, .PAgridstem > div.gridstem_widget:last-child {
+    padding-left: 0px !important;
+}
+
+
 
 /*table */
 .datatableFirstList a {
