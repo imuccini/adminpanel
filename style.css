@@ -1,32 +1,32 @@
 /*body */
 
 body {
-    color: #171B2A;  
-    font-size: 14px;
+    color: #171B2A!important;  
+    font-size: 14px!important;
 }
 
 a {
-    color: #171B2A;
+    color: #171B2A!important;
 }
 
 tbody a:hover {
-    color: #3758ff;
-    text-decoration: none;
+    color: #3758ff!important;
+    text-decoration: none!important;
 }
 
 td a {
-    color: #171B2A;
-    text-decoration: underline;
+    color: #171B2A!important;
+    text-decoration: underline!important;
 }
 
 td a:hover {
     color: #171B2A!important;
-    text-decoration: underline;
+    text-decoration: underline!important;
 }
     
 /*nav*/
 .m-inner .nav>li>a {
-    color: #171B2A;
+    color: #171B2A!important;
 }
 
 .navbar .m-inner {
@@ -39,7 +39,7 @@ td a:hover {
 
 
 .navbar .brand {
-    margin-left: 68px;
+    margin-left: 68px!important;
     
 }
 
@@ -51,8 +51,8 @@ ul#mainsidebar li.active {
 
 ul#mainsidebar {
     background: #171B2A!important;
-        top: 0px;
-        padding-top: 55px;
+        top: 0px!important;
+        padding-top: 55px!important;
     }
 
 
@@ -61,21 +61,21 @@ ul#mainsidebar {
 }
 
 .second-level-container .second-level-content .menu_title {
-    font-size: 20px;
-    padding-top: 35px;
-    margin-bottom: 10px;
-    padding-left: 7px;
-    padding-bottom: 0px;
-    border-bottom: none;
-    font-weight: 600;
+    font-size: 20px!important;
+    padding-top: 35px!important;
+    margin-bottom: 10px!important;
+    padding-left: 7px!important;
+    padding-bottom: 0px!important;
+    border-bottom: none!important;
+    font-weight: 600!important;
 }
 
 ul#mainsidebar li[data-uri='settings'] {
-    position: relative;
+    position: relative!important;
 }
 
 .sidebar-close-button.open-panel {
-     display:none;   
+     display:none!important;   
 }
 
 .second-level-container .second-level-content.open-panel {
@@ -84,13 +84,13 @@ ul#mainsidebar li[data-uri='settings'] {
 
 
 .second-level-container.open-panel {
-    border-right: 1px solid #efefef;
+    border-right: 1px solid #efefef!important;
 }
 
 
 .second-level-container {
     background-color: transparent !important;
-        width: 170px;
+        width: 170px!important;
 }
 
 
@@ -103,10 +103,10 @@ ul#mainsidebar li[data-uri='settings'] {
 
 .second-level-container .second-level-content ul li a {
     color: #171B2A !important;
-    padding: 7px;
-    width: auto;
-    display: block;
-    border-radius: 4px;
+    padding: 7px!important;
+    width: auto!important;
+    display: block!important;
+    border-radius: 4px!important;
 }
 
 .second-level-container .second-level-content ul li a:hover, .second-level-container .second-level-content ul li a:focus, .second-level-container .second-level-content ul li a:active {
@@ -115,21 +115,21 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 .second-level-container .second-level-content ul li.active a {
-    font-weight: 900;
+    font-weight: 600!important;
     color: #5672AD !important;
 }
 
 
 .section_title {
-    padding-left: 7px;
-    opacity: 0.5;
+    padding-left: 7px!important;
+    opacity: 0.5!important;
 }
 
 
 /*main*/
 .openpanel .action_bar, .openpanel .main_content {
-    margin-left: 263px;
-    width: calc(100% - 280px);
+    margin-left: 263px!important;
+    width: calc(100% - 280px)!important;
 }
 
 
@@ -139,82 +139,82 @@ ul#mainsidebar li[data-uri='settings'] {
 
 
 .section_title {
-    color: #0000007d;
+    color: #0000007d!important;
 }
 ul > .section_title:first-child {
-    display: none;
+    display: none!important;
 }
 
 .sidebar-close-button.open-panel {
-    visibility: visible;
-    left: 80px;
+    visibility: visible!important;
+    left: 80px!important;
 }
 
 .sidebar-close-button {
-    bottom: 15px;
+    bottom: 15px!important;
 }
 
 /*buttons */
 html body #maincontainer .btn{
-        box-shadow: none;
-    background-color: #171B2A;
+        box-shadow: none!important;
+    background-color: #171B2A!important;
 }
 
 html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
-        box-shadow: none;
+        box-shadow: none!important;
 }
 
 html body #maincontainer .btn.btn-primary {
-        box-shadow: none;
-    background-color: #171B2A;
+        box-shadow: none!important;
+    background-color: #171B2A!important;
 }
 html body #maincontainer .btn.btn-primary:hover {
-        opacity:0.8    
+        opacity:0.8!important;    
 }
 
 html body #maincontainer .btn.btn-gebo {
-        box-shadow: none;
-    background-color: #171B2A;
+        box-shadow: none!important;
+    background-color: #171B2A!important;
 }
 html body #maincontainer .btn.btn-gebo:hover {
-        opacity:0.8    
+        opacity:0.8!important;    
 }
 
 
 
 html body #maincontainer .btn.btn-nav{
-        box-shadow: none;
-    background-color: #171B2A;
+        box-shadow: none!important;
+    background-color: #171B2A!important;
 }
 
 html body #maincontainer .btn.btn-nav:hover {
-          opacity:0.8    
+          opacity:0.8 !important;   
 }  
 
 html body #maincontainer .btn.btn-success {
-    box-shadow: none;
+    box-shadow: none!important;
     background-color: #171B2A!important;
 }
 
 html body #maincontainer .btn.btn-success:hover {
-    opacity:0.8    
+    opacity:0.8   !important; 
 }
 
 html body #maincontainer .btn.btn-success:hover {
-    opacity:0.8
+    opacity:0.8!important;
 }
 
 html body #maincontainer .btn {
-      box-shadow: none;
-    background-color: #171B2A;
+      box-shadow: none!important;
+    background-color: #171B2A!important;
 }
 html body #maincontainer .btn:hover {
-    opacity:0.8
+    opacity:0.8!important;
 }
 
 /*panel*/
 .panel_inner {
-    border-bottom: none;
+    border-bottom: none!important;
 }
 
 .panel_inner .pull-right {
@@ -227,7 +227,7 @@ html body #maincontainer .btn:hover {
 
 .panel_inner h3 {
     color: #171B2A!important;
-    font-weight: 600;
+    font-weight: 600!important;
     font-size: 28px!important;
 }
 
@@ -235,18 +235,18 @@ html body #maincontainer .btn:hover {
 /*breadcrumbs*/
 
 nav.breadcrumbs {
-    position: absolute;
-    top: 64px;
+    position: absolute!important;
+    top: 64px!important;
 }
 
 nav.breadcrumbs ul > li:first-child {
-    display: none;
+    display: none!important;
 }
 
 nav.breadcrumbs ul li a, nav.breadcrumbs ul li span {
-    color: #000;
-    font-size: 11px;
-    opacity: .25;
+    color: #000!important;
+    font-size: 11px!important;
+    opacity: .25!important;
 }
 
 
@@ -284,11 +284,11 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 
 /*table */
 .datatableFirstList a {
-    color: #171B2A;
+    color: #171B2A!important;
 }
 
 .dtList th {
-        color: #171B2A;
+        color: #171B2A!important;
 }
 
 /*other*/
@@ -299,7 +299,7 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 /*pages*/
 
 .vcard .vcard-item {
-    margin-left: 240px;
+    margin-left: 240px!important;
 }
 
 .vcard .thumbnail {
@@ -307,18 +307,18 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 }
 
 .vcard > ul {
-    margin: 10px 0 0 0px;
+    margin: 10px 0 0 0px!important;
 }
 
 .vcard .item-key {
-    padding-left: 0px;
-    width: 220px;
-    color: #171B2A;
+    padding-left: 0px!important;
+    width: 220px!important;
+    color: #171B2A!important;
 }
 
 .vcard > ul > li.v-heading {
-    padding-bottom: 10px;
-    padding-top: 30px;
+    padding-bottom: 10px!important;
+    padding-top: 30px!important;
     border: none !important;
 }
 
@@ -338,23 +338,23 @@ html.v600 .tabbable .nav.nav-tabs li.active a, html .tabbable .nav.nav-tabs li.a
 }
 
 .has-switch label {
-    border-left: 1px solid #eeeeee;
-    border-right: 1px solid #eeeeee;
-    color: #333333;
-    text-shadow: none;
-    background-image: none;
+    border-left: 1px solid #eeeeee!important;
+    border-right: 1px solid #eeeeee!important;
+    color: #333333!important;
+    text-shadow: none!important;
+    background-image: none!important;
 }
 
 .has-switch span.switch-danger {
-    color: #444;
+    color: #444!important;
     text-shadow: none !important;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7!important;
     border: 1px solid #eee !important;
 }
 
 .has-switch span.switch-success {
-    color: #00B050;
-    background: no-repeat;
+    color: #00B050!important;
+    background: no-repeat!important;
     text-shadow: none !important;
     
 }
