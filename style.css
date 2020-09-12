@@ -33,6 +33,10 @@ td a:hover {
     box-shadow: none !important;
 }
 
+.navbar-inner {
+    border-bottom: 1px #efefef solid !important;
+}
+
 
 .navbar .brand {
     margin-left: 60px;
@@ -48,7 +52,17 @@ ul#mainsidebar {
     background: #171B2A!important;
     }
 .menu_title {
-    display:none;
+    /*display:none;*/
+}
+
+.second-level-container .second-level-content .menu_title {
+    font-size: 20px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    padding-bottom: 0px;
+    border-bottom: none;
+    font-weight: 600;
 }
 
 ul#mainsidebar li[data-uri='settings'] {
@@ -65,8 +79,9 @@ ul#mainsidebar li[data-uri='settings'] {
 
 
 .second-level-container.open-panel {
-    border-right: none!important;
+    border-right: 1px solid #efefef;
 }
+
 
 .second-level-container {
     background-color: transparent !important;
@@ -75,9 +90,7 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 
-.second-level-container .second-level-content ul li.active a {
-    color: #171B2A!important;
-}
+
 
 
 
@@ -99,6 +112,8 @@ ul#mainsidebar li[data-uri='settings'] {
     background:#F5F6F7!important;
     text-decoration: none!important;
 }
+
+
 
 .section_title {
     padding-left: 7px;
