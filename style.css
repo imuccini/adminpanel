@@ -85,7 +85,9 @@ ul#mainsidebar li[data-uri='settings'] {
 
 .second-level-container {
     background-color: transparent !important;
+        width: 170px;
 }
+
 
 
 .second-level-container .second-level-content ul li {
@@ -107,6 +109,10 @@ ul#mainsidebar li[data-uri='settings'] {
     text-decoration: none!important;
 }
 
+.second-level-container .second-level-content ul li.active a {
+    font-weight: 900;
+    color: #0076aa !important;
+}
 
 
 .section_title {
@@ -280,3 +286,19 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 .vcard .item-key {
      color: #171B2A;
 }   
+
+
+
+/*pages*/
+
+.vcard .thumbnail {
+    display: none !important;
+}
+
+.vcard > ul {
+    margin: 10px 0 0 0px;
+}
+
+.vcard .item-key {
+    padding-left: 0px;
+}
