@@ -399,3 +399,14 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
     text-shadow: none !important;
     
 }
+
+
+/*selecte*/
+.select2-results {
+    color:#171B2A;
+}
+
+.select2-results .select2-highlighted {
+    background: none repeat scroll 0 0 #f5f6f7;
+    color:#171B2A;
+}
