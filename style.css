@@ -105,6 +105,11 @@ ul#mainsidebar li[data-uri='settings'] {
 .second-level-container {
     background-color: transparent !important;
         width: 170px!important;
+    transition: all 100ms ease-in!important;
+}
+
+.openpanel .action_bar, .openpanel .main_content {
+    transition: all 100ms ease-in!important;
 }
 
 
