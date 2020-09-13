@@ -336,7 +336,7 @@ section.grid .gridster {
 /*pages*/
 
 .vcard .vcard-item {
-    margin-left: 210px!important;
+    margin-left: 210px;
 }
 
 .vcard .thumbnail {
@@ -349,7 +349,7 @@ section.grid .gridster {
 
 .vcard .item-key {
     padding-left: 0px!important;
-    width: 190px!important;
+    width: 190px;
     color: #171B2A!important;
 }
 
