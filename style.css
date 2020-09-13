@@ -16,17 +16,21 @@ a {
 
 tbody a {
     color: #171B2A!important;
-    text-decoration: underline!important;
+    text-decoration: none!important;
 }
 
 tbody a:hover {
     color: #5672AD!important;
-    text-decoration: underline!important;
+    text-decoration: none!important;
 }
     
 /*nav*/
 .m-inner .nav>li>a {
     color: #171B2A!important;
+}
+
+.navbar-fixed-top .m-inner .nav > li:hover {
+    background: #f5f6f7;
 }
 
 .navbar .m-inner {
@@ -39,9 +43,19 @@ tbody a:hover {
 
 
 .navbar .brand {
-    margin-left: 68px!important;
-    
+    margin-left: 68px!important;    
 }
+
+.pull-right ul li a:hover {
+    color: #5672AD;
+    background-color: transparent;
+}
+
+#search_list {
+    max-height:400px!important;   
+}
+
+
 
 /*sidebar*/
 
@@ -62,7 +76,7 @@ ul#mainsidebar {
 
 .second-level-container .second-level-content .menu_title {
     font-size: 20px!important;
-    padding-top: 35px!important;
+    padding-top: 24px!important;
     margin-bottom: 10px!important;
     padding-left: 7px!important;
     padding-bottom: 0px!important;
