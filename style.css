@@ -442,6 +442,6 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 
 
 #contentwrapper .action_bar.breadcrumbs {
-    background-color: #ffffff !important;
+    background-color: transparent !important;
     color: #171B2A;
 }
