@@ -423,3 +423,24 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
     background: none repeat scroll 0 0 #f5f6f7;
     color:#171B2A;
 }
+
+
+
+/*SPECIFIC PAGES */
+
+/*Customer Profile */
+.profile_page {
+    padding-top: 60px;
+}
+
+.card_table .attribute {
+
+    color: #171B2A;
+}
+.card_table .valueLeft {
+    color: #171B2A;
+}
+
+.card_table .line {
+    display: table;
+}
