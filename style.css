@@ -112,13 +112,10 @@ ul#mainsidebar li[data-uri='settings'] {
     transition: all 100ms ease-in!important;
 }
 
-
-
 .second-level-container .second-level-content ul li {
     width:100%;
     margin-bottom: 0px!important;
 }
-
 
 .second-level-container .second-level-content ul li a {
     color: #171B2A !important;
@@ -138,7 +135,6 @@ ul#mainsidebar li[data-uri='settings'] {
     color: #5672AD !important;
 }
 
-
 .section_title {
     padding-left: 7px!important;
     opacity: 0.5!important;
@@ -151,11 +147,9 @@ ul#mainsidebar li[data-uri='settings'] {
     width: calc(100% - 280px)!important;
 }
 
-
 .second-level-container .second-level-content ul {
     margin-top: 30px!important;
 }
-
 
 .section_title {
     color: #0000007d!important;
@@ -251,6 +245,13 @@ html body #maincontainer .btn:hover {
     color: #171B2A!important;
     font-weight: 600!important;
     font-size: 28px!important;
+}
+
+/*fix the problem that many titles have a too short container*/
+.panel_inner [class*="span"] {
+    text-overflow: clip;
+    overflow: visible;
+    white-space: nowrap;
 }
 
 
