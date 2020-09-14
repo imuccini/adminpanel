@@ -305,6 +305,14 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
     fill: #171B2A!important;
 }
 
+.v600 body #contentwrapper .PAFfilter div.dashboard_compare, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis, .v600 body #contentwrapper .PAFfilter div.dashboard_period, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter, .v600 body #contentwrapper .PAFfilter div.dashboard_venues, .v600 body #maincontainer .PAFfilter div.dashboard_compare, .v600 body #maincontainer .PAFfilter div.dashboard_kpis, .v600 body #maincontainer .PAFfilter div.dashboard_period, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter, .v600 body #maincontainer .PAFfilter div.dashboard_venues {
+    color: #171B2A!important;
+}
+
+.v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group .dropdown-menu li a, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group .dropdown-menu li a {
+    color: #171B2A!important;
+}
+
 
 section.grid .gridster {
     margin-left: -10px!important;
@@ -444,4 +452,11 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 #contentwrapper .action_bar.breadcrumbs {
     background-color: transparent !important;
     color: #171B2A;
+}
+
+
+/*Peak analytics*/
+.section-box {
+    border: 1px solid #eee;
+    border-radius: 4px;
 }
