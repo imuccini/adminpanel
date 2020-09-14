@@ -5,6 +5,11 @@ body {
     font-size: 14px!important;
 }
 
+.action_bar, .main_content, body {
+    background-color: #ffffff !important;
+    color: #171B2A;
+}
+
 #contentwrapper {
     padding-bottom: 40px;
 }
@@ -263,7 +268,7 @@ nav.breadcrumbs {
 }
 
 nav.breadcrumbs ul > li:first-child {
-    display: none!important;
+    /*display: none!important;*/
 }
 
 nav.breadcrumbs ul li a, nav.breadcrumbs ul li span {
