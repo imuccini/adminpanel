@@ -13,6 +13,11 @@ a {
     color: #171B2A;
 }
 
+.main_content a:hover {
+    color: #171B2A;
+    text-decoration: none;
+}
+
 
 tbody a {
     color: #171B2A!important;
@@ -337,6 +342,11 @@ section.grid .gridster {
     opacity: 0.68;
 }
 
+.dataTables_empty {
+    color: rgba(0,0,0,0.5);
+}
+
+
 /*other*/
 
 
@@ -448,7 +458,6 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
     display: table;
 }
 
-
 #contentwrapper .action_bar.breadcrumbs {
     background-color: transparent !important;
     color: #171B2A;
@@ -459,4 +468,21 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 .section-box {
     border: 1px solid #eee;
     border-radius: 4px;
+}
+
+
+/*floor pplan management */
+#fpAdmin div.list_map div.list ul li {
+    padding:7px;
+    border-radius:4px;
+}
+
+#fpAdmin div.list_map div.list ul li:hover {
+background:#F5F6F7 !important
+}
+
+
+/*Markeplace */
+.app_list .tab-pane {
+    padding: 0px;
 }
