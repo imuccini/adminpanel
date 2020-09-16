@@ -486,3 +486,24 @@ background:#F5F6F7 !important
 .app_list .tab-pane {
     padding: 0px;
 }
+
+
+
+/*Charts */
+path.PAGgraphArea {
+    fill: #5672AD;
+}
+
+path.PAGgraphLine {
+    stroke: #5672AD;
+    stroke-width: 2;
+}
+
+rect {
+    fill: #5672AD;
+}
+
+path.slice {
+    fill: #5672AD!important;
+}
+
