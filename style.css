@@ -512,8 +512,9 @@ path.slice {
 
 
 /*Triggered Campaigns*/
+
 .stepy-titles .current-step .stepNb {
-    background:#171B2A;
+    background: transparent;
 }
 
 .stepy-titles li {
@@ -584,4 +585,11 @@ path.slice {
 }
 .stepy-titles li:first-child {
     padding-left: 0px;
+}
+
+.spandelay {
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    margin-bottom: 20px;
 }
