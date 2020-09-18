@@ -319,6 +319,17 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
     color: #171B2A!important;
 }
 
+.v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group a.from i, .v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group a.from span, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group a.from i, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group a.from span {
+   color: #171B2A!important;  
+}
+
+.v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group a.from .caret, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group a.from .caret {
+    border-top-color: #171B2A!important;  ;
+}
+
+#dateFrom {
+    padding-right: 10px;
+}
 
 section.grid .gridster {
     margin-left: -10px!important;
@@ -513,6 +524,10 @@ path.slice {
 
 /*Triggered Campaigns*/
 
+.pnc-content-info {
+    margin-bottom: 0px;
+}
+
 .stepy-titles .current-step .stepNb {
     background: transparent;
 }
@@ -589,7 +604,24 @@ path.slice {
 
 .spandelay {
     border-radius: 4px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #eeeeee!important;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.day-of-week.selected {
+    background-color: #171B2A !important;
+    color: white;
+    border-color: #171B2A !important;
+}
+
+.ui-widget-header {
+    background: #ddd !important;
+    border: 1px solid #ddd !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #171B2A !important;
+    cursor: pointer;
+    border: 1px solid #171B2A !important;
 }
