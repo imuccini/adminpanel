@@ -516,10 +516,13 @@ path.slice {
     background:#171B2A;
 }
 
-
 .stepy-titles li {
     font-size: 16px !important;
-        color: #171B2A!important;
+    color: rgba(0,0,0,0.6) !important;
+}
+
+.stepy-titles .current-step {
+    color: #171B2A!important;    
 }
 
 .stepy-titles {
@@ -554,5 +557,31 @@ path.slice {
 #pnc-content .well {
     -moz-border-radius: px;
     border-radius: 4px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #eeeeee !important;
+    padding:20px!important;
+}
+
+.stepy-titles .stepNb {
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    border-radius: 0px;
+    background: transparent;
+    border: solid #eee;
+        border-top-width: medium;
+        border-right-width: medium;
+        border-bottom-width: medium;
+        border-left-width: medium;
+    border-width: 0 3px 3px 0;
+    width: 6px;
+    height: 7px;
+    color: transparent;
+    margin-top: 8px;
+}
+
+.stepy-titles li:first-child .stepNb {
+    display: none;
+}
+.stepy-titles li:first-child {
+    padding-left: 0px;
 }
