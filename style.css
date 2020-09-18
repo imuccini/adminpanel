@@ -301,6 +301,17 @@ body, body #contentwrapper, body .main_content, body .panel {
 }
 
 
+/*marketplace*/
+.appgrid {
+ box-shadow:none;   
+}
+
+/*social marketing*/
+.tabbable-bordered .nav-tabs > .selelted > a, .tabbable-bordered .nav-tabs > .selelted > a:hover, .tabbable-bordered .nav-tabs > .selelted > a:focus {
+    border-bottom: 4px solid #5672AD !important;
+}
+
+
 /*analytics filters*/
 
 header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dashboard_period div.selected p {
