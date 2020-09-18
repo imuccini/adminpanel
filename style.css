@@ -398,7 +398,7 @@ html.v600 .tabbable .nav.nav-tabs li.active a, html .tabbable .nav.nav-tabs li.a
 }
 
 html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:hover, html.v600 .tabbable-bordered .nav.nav-tabs li a:hover, html .tabbable-bordered .nav.nav-tabs li a:hover {
-    border-bottom: 4px solid #171B2A!important;
+    border-bottom: 4px solid #dddddd!important;
 }
 
 
