@@ -516,10 +516,19 @@ path.slice {
     background:#171B2A;
 }
 
-.stepy-titles .current-step, .stepy-titles {
-    color: #171B2A!important;
+
+.stepy-titles li {
+    font-size: 16px !important;
+        color: #171B2A!important;
 }
 
+.stepy-titles {
+    border-bottom: none;
+}
+
+.stepy-titles .stepNb {
+    background:#f5f6f7;
+}
 .pnc-content-info {
     color: #171B2A!important;    
 }
@@ -540,4 +549,10 @@ path.slice {
 .pnc-selectContent.selected img {
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
+}
+
+#pnc-content .well {
+    -moz-border-radius: px;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
 }
