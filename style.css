@@ -509,3 +509,35 @@ path.slice {
 }
 
 */
+
+
+/*Triggered Campaigns*/
+.stepy-titles .current-step .stepNb {
+    background:#171B2A;
+}
+
+.stepy-titles .current-step, .stepy-titles {
+    color: #171B2A!important;
+}
+
+.pnc-content-info {
+    color: #171B2A!important;    
+}
+.pnc-content-section {
+    margin: 30px 0;
+}
+.pnc-selectContent.disabled {
+    opacity: 0.5;
+}
+
+.pnc-selectContent.selected, .pnc-selectContent.selected:hover {
+    background: #171B2A!important; ;
+}
+
+.pnc-selectContent {
+    border-radius: 4px;
+}
+.pnc-selectContent.selected img {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
