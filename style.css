@@ -436,6 +436,9 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
     top: 7px;
 }
 
+.select2-container-multi .select2-choices {
+    border: 1px solid #ddd;
+}
 
 /*switch */
 
