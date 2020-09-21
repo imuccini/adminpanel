@@ -572,6 +572,7 @@ path.slice {
 
 .stepy-titles .current-step .stepNb {
     background: transparent;
+    color: transparent;
 }
 
 .stepy-titles li {
