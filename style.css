@@ -584,6 +584,11 @@ path.slice {
     color: #171B2A!important;    
 }
 
+.pnc-selectContent.selected img {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+}
+
 .stepy-titles {
     border-bottom: none;
 }
