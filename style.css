@@ -562,6 +562,10 @@ path.slice {
 
 /*Triggered Campaigns*/
 
+.targetAudienceConjunction + div, .targetAudienceConjunction {
+    display: none;
+}
+
 .pnc-content-info {
     margin-bottom: 0px;
 }
