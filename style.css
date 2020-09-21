@@ -670,12 +670,12 @@ path.slice {
     border-color: #171B2A !important;
 }
 
-.vcard-item  .ui-widget-header {
+.ui-widget-header {
     background: #ddd !important;
     border: 1px solid #ddd !important;
 }
 
-.vcard-item  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     background: #171B2A !important;
     cursor: pointer;
     border: 1px solid #171B2A !important;
@@ -692,3 +692,13 @@ path.slice {
     display: none!important;
 }
 
+select {
+    font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+option {
+    line-height: 1.3em!important;
+    padding-top: 3px;
+    padding-bottom: 3PX;
+    COLOR: #171B2A;
+}
