@@ -585,8 +585,8 @@ path.slice {
 }
 
 .pnc-selectContent.selected img {
-    -webkit-filter: brightness(0%);
-    filter: brightness(0%);
+    -webkit-filter: brightness(0%)!important;
+    filter: brightness(0%)!important;
 }
 
 .stepy-titles {
@@ -613,19 +613,21 @@ path.slice {
 .pnc-selectContent.selected, .pnc-selectContent.selected:hover {
     background: #f5f6f7!important;
     border: 1px solid #dddddd!important;
+    border-radius: 4px!important;
 }
 
 .pnc-selectContent {
-    border-radius: 4px;
+    border-radius: 4px!important;
 }
+
 .pnc-selectContent.selected img {
     -webkit-filter: brightness(100%);
     filter: brightness(100%);
 }
 
 #pnc-content .well {
-    -moz-border-radius: px;
-    border-radius: 4px;
+    -moz-border-radius: 4px!important;
+    border-radius: 4px !important;
     border: 1px solid #eeeeee !important;
     padding:20px!important;
 }
@@ -662,19 +664,31 @@ path.slice {
     margin-bottom: 20px;
 }
 
-.day-of-week.selected {
+.vcard-item .day-of-week.selected {
     background-color: #171B2A !important;
     color: white;
     border-color: #171B2A !important;
 }
 
-.ui-widget-header {
+.vcard-item  .ui-widget-header {
     background: #ddd !important;
     border: 1px solid #ddd !important;
 }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+.vcard-item  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     background: #171B2A !important;
     cursor: pointer;
     border: 1px solid #171B2A !important;
 }
+
+.has-switch span.switch-primary, .has-switch span.switch-left {
+    background: #171B2A!important;
+    font-size: 10px;
+}
+
+
+[data-bind*="previousStep"]:disabled {
+    display: none;
+    display: none!important;
+}
+
