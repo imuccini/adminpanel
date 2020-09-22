@@ -161,7 +161,7 @@ ul#mainsidebar li[data-uri='settings'] {
     color: #0000007d!important;
 }
 ul > .section_title:first-child {
-    display: none!important;
+    /*display: none!important;*/
 }
 
 .sidebar-close-button.open-panel {
