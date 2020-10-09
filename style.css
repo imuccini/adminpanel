@@ -177,6 +177,7 @@ ul > .section_title:first-child {
 html body #maincontainer .btn{
         box-shadow: none!important;
     background-color: #1C1E21!important;
+    border: 1px solid #1C1E21!important;
     color: #ffffff!important;
     height: 34px;
     line-height: 34px;
@@ -196,6 +197,7 @@ html body #maincontainer .btn.btn-primary {
         box-shadow: none!important;
     background-color: #1C1E21;
     color: #ffffff!important;
+    border: 1px solid #1C1E21!important;
 }
 html body #maincontainer .btn.btn-primary:hover {
         opacity:0.8!important;    
@@ -205,6 +207,7 @@ html body #maincontainer .btn.btn-gebo {
         box-shadow: none!important;
     background-color: #1C1E21;
     color: #ffffff!important;
+    border: 1px solid #1C1E21!important;
 }
 html body #maincontainer .btn.btn-gebo:hover {
         opacity:0.8!important;    
@@ -216,11 +219,30 @@ html body #maincontainer .btn.btn-nav{
         box-shadow: none!important;
     background-color: #1C1E21!important;
     color: #ffffff!important;
+    border: 1px solid #1C1E21!important;
 }
 
 html body #maincontainer .btn.btn-nav:hover {
           opacity:0.8 !important;   
 }  
+
+
+html body #maincontainer .btn.btn-warning{
+        box-shadow: none!important;
+    background-color: #F2F2F2!important;
+    color: #1C1E21!important;
+    border: 1px solid #F2F2F2!important;
+}
+
+html body #maincontainer .btn.btn-warning:hover {
+        background-color: #E5E5E5!important;
+        border: 1px solid #E5E5E5!important;
+}  
+
+
+
+
+
 
 html body #maincontainer .btn.btn-success {
     box-shadow: none!important;
