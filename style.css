@@ -184,6 +184,10 @@ html body #maincontainer .btn{
         text-transform: initial!important;
 }
 
+.btn i {
+    display: none!important;
+}
+
 html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
         box-shadow: none!important;
 }
