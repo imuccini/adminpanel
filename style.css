@@ -178,9 +178,10 @@ html body #maincontainer .btn{
         box-shadow: none!important;
     background-color: #1C1E21!important;
     color: #ffffff!important;
-    height: 32px;
-    line-height: 32px;
+    height: 34px;
+    line-height: 34px;
     padding: 0 12px;
+    text-transform: normal;
 }
 
 html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
