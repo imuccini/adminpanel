@@ -181,7 +181,7 @@ html body #maincontainer .btn{
     height: 34px;
     line-height: 34px;
     padding: 0 12px;
-    text-transform: normal;
+        text-transform: initial!important;
 }
 
 html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
