@@ -128,7 +128,7 @@ ul#mainsidebar li[data-uri='settings'] {
     padding: 7px!important;
     width: auto!important;
     display: block!important;
-    border-radius: 4px!important;
+    border-radius: 3px!important;
 }
 
 .second-level-container .second-level-content ul li a:hover, .second-level-container .second-level-content ul li a:focus, .second-level-container .second-level-content ul li a:active {
@@ -322,7 +322,7 @@ section.grid .widget h4 {
 }
 
 section.grid .widget {
-    border-radius: 4px!important;;
+    border-radius: 3px!important;;
     border: 1px solid #eeeeee!important;;
 }
 
@@ -544,14 +544,14 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 /*Peak analytics*/
 .section-box {
     border: 1px solid #eee;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 
 /*floor pplan management */
 #fpAdmin div.list_map div.list ul li {
     padding:7px;
-    border-radius:4px;
+    border-radius:3px;
 }
 
 #fpAdmin div.list_map div.list ul li:hover {
@@ -640,11 +640,11 @@ path.slice {
 .pnc-selectContent.selected, .pnc-selectContent.selected:hover {
     background: #f5f6f7!important;
     border: 1px solid #dddddd!important;
-    border-radius: 4px!important;
+    border-radius: 3px!important;
 }
 
 .pnc-selectContent {
-    border-radius: 4px!important;
+    border-radius: 3px!important;
 }
 
 .pnc-selectContent.selected img {
@@ -653,8 +653,8 @@ path.slice {
 }
 
 #pnc-content .well {
-    -moz-border-radius: 4px!important;
-    border-radius: 4px !important;
+    -moz-border-radius: 3px!important;
+    border-radius: 3px !important;
     border: 1px solid #eeeeee !important;
     padding:20px!important;
 }
@@ -685,7 +685,7 @@ path.slice {
 }
 
 .spandelay {
-    border-radius: 4px;
+    border-radius: 3px;
     border: 1px solid #eeeeee!important;
     padding: 20px;
     margin-bottom: 20px;
@@ -734,6 +734,6 @@ option {
 
 .overview-template-container {
     background: none repeat scroll 0 0 #f5f6f7;
-    border-radius: 4px;
+    border-radius: 3px;
     line-height: 2;
 }
