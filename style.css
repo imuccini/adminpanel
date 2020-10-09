@@ -1,7 +1,7 @@
 /*body */
 
 body {
-    color: #171B2A;  
+    color: #1C1E21;  
     font-size: 14px!important;
 }
 
@@ -10,17 +10,17 @@ body {
 }
 
 a {
-    color: #171B2A;
+    color: #1C1E21;
 }
 
 .main_content a:hover {
-    color: #171B2A;
+    color: #1C1E21;
     text-decoration: none;
 }
 
 
 tbody a {
-    color: #171B2A!important;
+    color: #1C1E21!important;
     text-decoration: none!important;
 }
 
@@ -31,7 +31,7 @@ tbody a:hover {
     
 /*nav*/
 .m-inner .nav>li>a {
-    color: #171B2A!important;
+    color: #1C1E21!important;
 }
 
 .navbar-fixed-top .m-inner .nav > li:hover {
@@ -65,11 +65,11 @@ tbody a:hover {
 /*sidebar*/
 
 ul#mainsidebar li.active {
-    fill: #171B2A!important;
+    fill: #1C1E21!important;
 }
 
 ul#mainsidebar {
-    background: #171B2A!important;
+    background: #1C1E21!important;
     top: 0px!important;
     padding-top: 55px!important;
 }
@@ -77,7 +77,7 @@ ul#mainsidebar {
 
 .menu_title {
     /*display:none;*/
-    color: #171B2A!important;
+    color: #1C1E21!important;
 }
 
 .second-level-container .second-level-content .menu_title {
@@ -124,7 +124,7 @@ ul#mainsidebar li[data-uri='settings'] {
 }
 
 .second-level-container .second-level-content ul li a {
-    color: #171B2A !important;
+    color: #1C1E21 !important;
     padding: 7px!important;
     width: auto!important;
     display: block!important;
@@ -176,7 +176,7 @@ ul > .section_title:first-child {
 /*buttons */
 html body #maincontainer .btn{
         box-shadow: none!important;
-    background-color: #171B2A!important;
+    background-color: #1C1E21!important;
     color: #ffffff!important;
     height: 32px;
     line-height: 32px;
@@ -189,7 +189,7 @@ html body #maincontainer .btn:hover, html body #maincontainer .btn:active, {
 
 html body #maincontainer .btn.btn-primary {
         box-shadow: none!important;
-    background-color: #171B2A;
+    background-color: #1C1E21;
     color: #ffffff!important;
 }
 html body #maincontainer .btn.btn-primary:hover {
@@ -198,7 +198,7 @@ html body #maincontainer .btn.btn-primary:hover {
 
 html body #maincontainer .btn.btn-gebo {
         box-shadow: none!important;
-    background-color: #171B2A;
+    background-color: #1C1E21;
     color: #ffffff!important;
 }
 html body #maincontainer .btn.btn-gebo:hover {
@@ -209,7 +209,7 @@ html body #maincontainer .btn.btn-gebo:hover {
 
 html body #maincontainer .btn.btn-nav{
         box-shadow: none!important;
-    background-color: #171B2A!important;
+    background-color: #1C1E21!important;
     color: #ffffff!important;
 }
 
@@ -219,7 +219,7 @@ html body #maincontainer .btn.btn-nav:hover {
 
 html body #maincontainer .btn.btn-success {
     box-shadow: none!important;
-    background-color: #171B2A;
+    background-color: #1C1E21;
     color: #ffffff!important;
 }
 
@@ -230,7 +230,7 @@ html body #maincontainer .btn.btn-success:hover {
 
 html body #maincontainer .btn {
       box-shadow: none!important;
-    background-color: #171B2A!important;
+    background-color: #1C1E21!important;
     color: #ffffff!important;
 }
 html body #maincontainer .btn:hover {
@@ -251,7 +251,7 @@ html body #maincontainer .btn:hover {
 }
 
 .panel_inner h3 {
-    color: #171B2A!important;
+    color: #1C1E21!important;
     font-weight: 600!important;
     font-size: 28px!important;
 }
@@ -285,12 +285,12 @@ nav.breadcrumbs ul li a, nav.breadcrumbs ul li span {
 /*dashboard*/
 
 section.grid .widget h4 .metric {
-    color: #171B2A!important;
+    color: #1C1E21!important;
     font-weight: 600!important;
 }
 
 section.grid .widget h4 {
-    color: #171B2A!important;
+    color: #1C1E21!important;
     font-weight: 600!important;
 }
 
@@ -322,23 +322,23 @@ header.PAFfilter div.dashboard_compare div.selected p, header.PAFfilter div.dash
 }
 
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #contentwrapper .PAFfilter div.dashboard_venues div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_compare div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_kpis div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter div.selected svg path, .v600 body #maincontainer .PAFfilter div.dashboard_venues div.selected svg path {
-    fill: #171B2A!important;
+    fill: #1C1E21!important;
 }
 
 .v600 body #contentwrapper .PAFfilter div.dashboard_compare, .v600 body #contentwrapper .PAFfilter div.dashboard_kpis, .v600 body #contentwrapper .PAFfilter div.dashboard_period, .v600 body #contentwrapper .PAFfilter div.dashboard_period.filter, .v600 body #contentwrapper .PAFfilter div.dashboard_venues, .v600 body #maincontainer .PAFfilter div.dashboard_compare, .v600 body #maincontainer .PAFfilter div.dashboard_kpis, .v600 body #maincontainer .PAFfilter div.dashboard_period, .v600 body #maincontainer .PAFfilter div.dashboard_period.filter, .v600 body #maincontainer .PAFfilter div.dashboard_venues {
-    color: #171B2A!important;
+    color: #1C1E21!important;
 }
 
 .v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group .dropdown-menu li a, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group .dropdown-menu li a {
-    color: #171B2A!important;
+    color: #1C1E21!important;
 }
 
 .v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group a.from i, .v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group a.from span, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group a.from i, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group a.from span {
-   color: #171B2A!important;  
+   color: #1C1E21!important;  
 }
 
 .v600 body #contentwrapper .PAnalytics div.analytics_filter div.btn-group a.from .caret, .v600 body #maincontainer .PAnalytics div.analytics_filter div.btn-group a.from .caret {
-    border-top-color: #171B2A!important;  ;
+    border-top-color: #1C1E21!important;  ;
 }
 
 #dateFrom {
@@ -357,11 +357,11 @@ section.grid .gridster {
 
 /*table */
 .datatableFirstList a {
-    color: #171B2A!important;
+    color: #1C1E21!important;
 }
 
 .dtList th {
-        color: #171B2A!important;
+        color: #1C1E21!important;
 }
 
 .datatableList {
@@ -395,7 +395,7 @@ section.grid .gridster {
 .vcard .item-key {
     padding-left: 0px!important;
     width: 190px;
-    color: #171B2A!important;
+    color: #1C1E21!important;
 }
 
 .vcard > ul > li.v-heading {
@@ -408,7 +408,7 @@ section.grid .gridster {
 /* TABS */
 html.v600 .tabbable .nav.nav-tabs li.active a, html .tabbable .nav.nav-tabs li.active a, html.v600 .tabbable-bordered .nav.nav-tabs li.active a, html .tabbable-bordered .nav.nav-tabs li.active a {
     border-bottom: 4px solid #5672AD!important;
-        color: #171B2A!important;  
+        color: #1C1E21!important;  
 }
 
 html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:hover, html.v600 .tabbable-bordered .nav.nav-tabs li a:hover, html .tabbable-bordered .nav.nav-tabs li a:hover {
@@ -479,12 +479,12 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 
 /*selecte*/
 .select2-results {
-    color:#171B2A;
+    color:#1C1E21;
 }
 
 .select2-results .select2-highlighted {
     background: none repeat scroll 0 0 #f5f6f7;
-    color:#171B2A;
+    color:#1C1E21;
 }
 
 
@@ -498,10 +498,10 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 
 .card_table .attribute {
 
-    color: #171B2A;
+    color: #1C1E21;
 }
 .card_table .valueLeft {
-    color: #171B2A;
+    color: #1C1E21;
 }
 
 .card_table .line {
@@ -510,7 +510,7 @@ html.v600 .tabbable .nav.nav-tabs li a:hover, html .tabbable .nav.nav-tabs li a:
 
 #contentwrapper .action_bar.breadcrumbs {
     background-color: transparent !important;
-    color: #171B2A;
+    color: #1C1E21;
 }
 
 
@@ -581,7 +581,7 @@ path.slice {
 }
 
 .stepy-titles .current-step {
-    color: #171B2A!important;    
+    color: #1C1E21!important;    
 }
 
 .pnc-selectContent.selected img {
@@ -597,7 +597,7 @@ path.slice {
     background:#f5f6f7;
 }
 .pnc-content-info {
-    color: #171B2A!important;    
+    color: #1C1E21!important;    
 }
 .pnc-content-section {
     margin: 30px 0;
@@ -665,9 +665,9 @@ path.slice {
 }
 
 .vcard-item .day-of-week.selected {
-    background-color: #171B2A !important;
+    background-color: #1C1E21 !important;
     color: white;
-    border-color: #171B2A !important;
+    border-color: #1C1E21 !important;
 }
 
 .ui-widget-header {
@@ -676,13 +676,13 @@ path.slice {
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    background: #171B2A !important;
+    background: #1C1E21 !important;
     cursor: pointer;
-    border: 1px solid #171B2A !important;
+    border: 1px solid #1C1E21 !important;
 }
 
 .has-switch span.switch-primary, .has-switch span.switch-left {
-    background: #171B2A!important;
+    background: #1C1E21!important;
     font-size: 10px;
 }
 
@@ -701,7 +701,7 @@ option {
     line-height: 1.3em!important;
     padding-top: 3px;
     padding-bottom: 3PX;
-    COLOR: #171B2A;
+    COLOR: #1C1E21;
     font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
